@@ -1,4 +1,5 @@
 Clock.bpm=var([120,60,30,15,2],[124,2,1,1/2,1/2]) # wait for the drop!
+Scale.default="major"
 d1 >> play("<|V0|:><  O ><|[--]5|>", sample=2)
 d2 >> play("<...(+|L2|)>< m>")
 c1 >> play("n", dur=1/4, sample=PRand(8), pan=PWhite(-1,1))
